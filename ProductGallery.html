@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Chrome-Hearts-Logo.png"> 
+            <h1>Chrome Hearts</h1>
+        </div>
+        <nav class="navlinks">
+            <a href="index.html">Home</a>
+            <a href="ProductGallery.html">Shop</a>
+            <a href="#">Contacts</a>
+        </nav>
+    </header>
+    <main>
+        <section class="Gallery">
+            <h2>OUR LEGACY</h2>
+            <input type="text" id="searchBar" placeholder="Search products...">
+            <div class="product-layout">
+                <div class="product-card">
+                    <img src="CH Wallet.webp" alt="Chrome Hearts Waller">
+                    <h1>Chrome Hearts Wallet</h1>
+                    <p>Handcrafted defiance for your pocket.</p>
+                </div>
+                <div class="product-card">
+                    <img src="CH ring.webp" alt="Chrome Hearts Ring">
+                    <h1>Chrome Hearts Ring</h1>
+                    <p>Bold luxury forged in silver and rebellion.</p>
+                </div>
+                <div class="product-card">
+                    <img src="CH glasses.webp" alt="Chrome Hearts Glasses">
+                    <h1>Chrome Hearts Glasses</h1>
+                    <p>Style that frames more than your eyes.</p>
+                </div>
+                <div class="product-card">
+                    <img src="CH Jacket.png" alt="Chrome Hearts Jacket">
+                    <h1>Chrome Hearts Jacket</h1>
+                    <p>Gothic luxury for the modern rebel.</p>
+                </div>
+                <div class="product-card">
+                    <img src="CH shirt.webp" alt="Chrome Hearts Shirt">
+                    <h1>Chrome Hearts Shirt</h1>
+                    <p>Every detail, a mark of luxury.</p>
+                </div>
+                <div class="product-card">
+                    <img src="CH hat.jpg" alt="Chrome Hearts Hat">
+                    <h1>Chrome Hearts Hat</h1>
+                    <p>Premium embroidered cap with gothic flair.</p>
+                </div>
+            </div>
+        </section>  
+    </main>
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImage" src="" alt="Product Image">
+            <h1 id="modalTitle"></h1>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+    <footer class="footer">
+        <section>
+            <h1>Luxury fashion rooted in rebellion</h1>
+        </section>
+        <section>
+            <p>Follow us</p>
+            <div class="footer-links">
+                <nav>
+                    <a href="#">Instagram</a>
+                    <a href="#">X/Twitter</a>
+                    <a href="#">Facebook</a>
+                </nav>
+            </div>
+        </section>
+        <p>2025 Chrome Hearts. All rights reserved.</p>
+    </footer>
+</body>
+</html>
