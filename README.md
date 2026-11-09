@@ -24,9 +24,9 @@ This project is a visual showcase and product gallery created out of a personal 
 ```text
 chrome-hearts/
 │
-├── HomePage.html        # Landing hero page and navbar layout
-├── ProductGallery.html  # Main product showcase catalog
-├── styles.css           # Global stylesheet & custom font loading
-├── script.js            # Live search filter and modal popup logic
-├── CloisterBlack.ttf    # Custom brand font asset
-└── assets/              # Product and banner image assets
+├── HomePage.html        
+├── ProductGallery.html  
+├── styles.css           
+├── script.js            
+├── CloisterBlack.ttf    
+└── assets/              
